@@ -9,10 +9,22 @@ Turn the droplet on DigitalOcean or Linode into a VPN server
 2. Select "Ubuntu 10.04 x64" in distributions
 3. [optional] Add SSH Keys when creating the droplet
 4. login to VPS
-5. use **wget https://github.com/hunterzhang86/DigitalOceanVPN/archive/master.zip** download scirpt
-6. **unzip master.zip** Extract the compressed file
-7. **cd DigitalOceanVPN** 
-8. use **sh ./autoInstallVPN.sh** run the script
+5. download scirpt
+```
+wget https://github.com/hunterzhang86/DigitalOceanVPN/archive/master.zip
+```
+6. Extract the compressed file
+```
+unzip master.zip
+```
+7. 
+```
+cd DigitalOceanVPN
+```
+8. run the script
+```
+sh ./autoInstallVPN.sh
+```
 
 ===================
 
@@ -28,7 +40,19 @@ DigitalOcean的最低服务器费用为$5/月 ，而Linode的最低服务器费�
 2. 选择镜像系统为"Ubuntu 10.04 x64"
 3. [推荐，但不必须] 在创建Droplet时添加SSH Keys
 4. 登录VPS
-5. 通过 **wget https://github.com/hunterzhang86/DigitalOceanVPN/archive/master.zip** 下载脚本
-6. **unzip master.zip** 解压压缩文件
-7. **cd DigitalOceanVPN** 
-8. 通过 **sh ./autoInstallVPN.sh** 命令执行脚本
+5. 下载脚本
+```
+wget https://github.com/hunterzhang86/DigitalOceanVPN/archive/master.zip
+```
+6. 解压压缩文件
+```
+unzip master.zip
+```
+7. 
+```
+cd DigitalOceanVPN
+```
+8. 执行脚本
+```
+sh ./autoInstallVPN.sh
+```
