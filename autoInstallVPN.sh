@@ -7,6 +7,7 @@ echo "remoteip 10.100.0.2-10" >> /etc/pptpd.conf
 echo "chap-secrets"
 
 echo >> /etc/ppp/chap-secrets
+# set username and password
 echo "VPNUserName	pptpd	VPNPassword	*" >> /etc/ppp/chap-secrets
 echo "ihunter	pptpd	ihunter	*" >> /etc/ppp/chap-secrets
 

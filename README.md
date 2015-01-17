@@ -14,8 +14,9 @@ Turn the droplet on DigitalOcean or Linode into a VPN server
 # download scirpt
 wget https://github.com/hunterzhang86/DigitalOceanVPN/archive/master.zip
 # Extract the compressed file
+apt-get install unzip
 unzip master.zip
-cd DigitalOceanVPN
+cd DigitalOceanVPN-master
 # run the script
 sh ./autoInstallVPN.sh
 ```
@@ -39,8 +40,14 @@ DigitalOcean的最低服务器费用为$5/月 ，而Linode的最低服务器费�
 # 下载脚本
 wget https://github.com/hunterzhang86/DigitalOceanVPN/archive/master.zip
 # 解压压缩文件
+apt-get install unzip
 unzip master.zip
-cd DigitalOceanVPN
+cd DigitalOceanVPN-master
 # 执行autoInstallVPN.sh
 sh ./autoInstallVPN.sh
+```
+
+* 注意，您也可以修改脚本中的以下命令设置VPN的用户名和密码。 
+```
+echo "用户名 pptpd   密码  *" >> /etc/ppp/chap-secrets
 ```
